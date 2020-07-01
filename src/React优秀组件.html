@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>【react组件实例】 | GuoYF</title>
+    <meta name="generator" content="VuePress 1.5.1">
+    
+    <meta name="description" content="Study Programs | Record Life">
+    <link rel="preload" href="/assets/css/0.styles.77532b51.css" as="style"><link rel="preload" href="/assets/js/app.f4b0a642.js" as="script"><link rel="preload" href="/assets/js/3.7a1db6fa.js" as="script"><link rel="preload" href="/assets/js/1.816cd029.js" as="script"><link rel="preload" href="/assets/js/14.bb1c86f1.js" as="script"><link rel="prefetch" href="/assets/js/10.1ed18352.js"><link rel="prefetch" href="/assets/js/11.19567aee.js"><link rel="prefetch" href="/assets/js/12.48ab7ca4.js"><link rel="prefetch" href="/assets/js/13.7935d837.js"><link rel="prefetch" href="/assets/js/15.15352236.js"><link rel="prefetch" href="/assets/js/16.51084f9b.js"><link rel="prefetch" href="/assets/js/17.bf152ce9.js"><link rel="prefetch" href="/assets/js/18.dc218ed0.js"><link rel="prefetch" href="/assets/js/19.f77c9768.js"><link rel="prefetch" href="/assets/js/20.93d194d6.js"><link rel="prefetch" href="/assets/js/21.de56d50b.js"><link rel="prefetch" href="/assets/js/22.e8a6accf.js"><link rel="prefetch" href="/assets/js/23.a63fde85.js"><link rel="prefetch" href="/assets/js/24.83b56aca.js"><link rel="prefetch" href="/assets/js/25.f164cf82.js"><link rel="prefetch" href="/assets/js/26.dea09f63.js"><link rel="prefetch" href="/assets/js/27.a507b52e.js"><link rel="prefetch" href="/assets/js/28.34518dd2.js"><link rel="prefetch" href="/assets/js/29.bfa86bb4.js"><link rel="prefetch" href="/assets/js/4.aeccc485.js"><link rel="prefetch" href="/assets/js/5.f750e59e.js"><link rel="prefetch" href="/assets/js/6.346d8b26.js"><link rel="prefetch" href="/assets/js/7.b2024d95.js"><link rel="prefetch" href="/assets/js/8.093d4d6d.js"><link rel="prefetch" href="/assets/js/9.f2b8b125.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.77532b51.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container" data-v-aa36da2e><div data-v-aa36da2e><div id="loader-wrapper" class="loading-wrapper" data-v-71fac282 data-v-aa36da2e data-v-aa36da2e><div class="loader-main" data-v-71fac282><div data-v-71fac282></div><div data-v-71fac282></div><div data-v-71fac282></div><div data-v-71fac282></div></div> <!----> <!----></div> <div class="password-shadow password-wrapper-out" style="display:none;" data-v-441c6d28 data-v-aa36da2e data-v-aa36da2e><h3 class="title" style="display:none;" data-v-441c6d28 data-v-441c6d28>GuoYF</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-441c6d28 data-v-441c6d28><input type="password" value="" data-v-441c6d28> <span data-v-441c6d28>Konck! Knock!</span> <button data-v-441c6d28>OK</button></label> <div class="footer" style="display:none;" data-v-441c6d28 data-v-441c6d28><span data-v-441c6d28><i class="iconfont reco-theme" data-v-441c6d28></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-441c6d28>vuePress-theme-reco</a></span> <span data-v-441c6d28><i class="iconfont reco-copyright" data-v-441c6d28></i> <a data-v-441c6d28><span data-v-441c6d28>GuoYF</span>
+            
+          <!---->
+          2020
+        </a></span></div></div> <div class="hide" data-v-aa36da2e><header class="navbar" data-v-aa36da2e><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/logo.jpg" alt="GuoYF" class="logo"> <span class="site-name">GuoYF</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  TimeLine
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      Category
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/技术文章/" class="nav-link"><i class="iconfont undefined"></i>
+  技术文章
+</a></li><li class="dropdown-item"><!----> <a href="/categories/阅读笔记/" class="nav-link"><i class="iconfont undefined"></i>
+  阅读笔记
+</a></li><li class="dropdown-item"><!----> <a href="/categories/生活记录/" class="nav-link"><i class="iconfont undefined"></i>
+  生活记录
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  Tag
+</a></div><div class="nav-item"><a href="https://github.com/guoyfnice" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GirHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="/AboutMe.html" class="nav-link"><i class="iconfont reco-other"></i>
+  AboutMe
+</a></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-aa36da2e></div> <aside class="sidebar" data-v-aa36da2e><div class="personal-info-wrapper" data-v-b257e8f6><!----> <h3 class="name" data-v-b257e8f6>
+    GuoYF
+  </h3> <div class="num" data-v-b257e8f6><div data-v-b257e8f6><h3 data-v-b257e8f6>18</h3> <h6 data-v-b257e8f6>Article</h6></div> <div data-v-b257e8f6><h3 data-v-b257e8f6>18</h3> <h6 data-v-b257e8f6>Tag</h6></div></div> <hr data-v-b257e8f6></div> <nav class="nav-links"><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  TimeLine
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      Category
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/技术文章/" class="nav-link"><i class="iconfont undefined"></i>
+  技术文章
+</a></li><li class="dropdown-item"><!----> <a href="/categories/阅读笔记/" class="nav-link"><i class="iconfont undefined"></i>
+  阅读笔记
+</a></li><li class="dropdown-item"><!----> <a href="/categories/生活记录/" class="nav-link"><i class="iconfont undefined"></i>
+  生活记录
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  Tag
+</a></div><div class="nav-item"><a href="https://github.com/guoyfnice" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GirHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="/AboutMe.html" class="nav-link"><i class="iconfont reco-other"></i>
+  AboutMe
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>【react组件实例】</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/src/React%E4%BC%98%E7%A7%80%E7%BB%84%E4%BB%B6.html#react组件实例" class="sidebar-link">react组件实例</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/src/React%E4%BC%98%E7%A7%80%E7%BB%84%E4%BB%B6.html#datalist（列表）" class="sidebar-link">DataList（列表）</a></li><li class="sidebar-sub-header"><a href="/src/React%E4%BC%98%E7%A7%80%E7%BB%84%E4%BB%B6.html#datatable（表格）" class="sidebar-link">DataTable（表格）</a></li><li class="sidebar-sub-header"><a href="/src/React%E4%BC%98%E7%A7%80%E7%BB%84%E4%BB%B6.html#mappedtable（带键值的表格）" class="sidebar-link">MappedTable（带键值的表格）</a></li><li class="sidebar-sub-header"><a href="/src/React%E4%BC%98%E7%A7%80%E7%BB%84%E4%BB%B6.html#click（点击事件）" class="sidebar-link">click（点击事件）</a></li><li class="sidebar-sub-header"><a href="/src/React%E4%BC%98%E7%A7%80%E7%BB%84%E4%BB%B6.html#usefatch（网络请求）" class="sidebar-link">useFatch（网络请求）</a></li><li class="sidebar-sub-header"><a href="/src/React%E4%BC%98%E7%A7%80%E7%BB%84%E4%BB%B6.html#usetimeout（定时器）" class="sidebar-link">useTimeout（定时器）</a></li><li class="sidebar-sub-header"><a href="/src/React%E4%BC%98%E7%A7%80%E7%BB%84%E4%BB%B6.html#input（输入框）" class="sidebar-link">input（输入框）</a></li><li class="sidebar-sub-header"><a href="/src/React%E4%BC%98%E7%A7%80%E7%BB%84%E4%BB%B6.html#limitedtextarea（受控多行输入）" class="sidebar-link">LimitedTextarea（受控多行输入）</a></li><li class="sidebar-sub-header"><a href="/src/React%E4%BC%98%E7%A7%80%E7%BB%84%E4%BB%B6.html#multiselectcheckbox（多选框）" class="sidebar-link">MultiselectCheckbox（多选框）</a></li><li class="sidebar-sub-header"><a href="/src/React%E4%BC%98%E7%A7%80%E7%BB%84%E4%BB%B6.html#select（选择框）" class="sidebar-link">Select（选择框）</a></li><li class="sidebar-sub-header"><a href="/src/React%E4%BC%98%E7%A7%80%E7%BB%84%E4%BB%B6.html#accordion（手风琴菜单）" class="sidebar-link">Accordion（手风琴菜单）</a></li><li class="sidebar-sub-header"><a href="/src/React%E4%BC%98%E7%A7%80%E7%BB%84%E4%BB%B6.html#alert（弹出提示）" class="sidebar-link">alert（弹出提示）</a></li><li class="sidebar-sub-header"><a href="/src/React%E4%BC%98%E7%A7%80%E7%BB%84%E4%BB%B6.html#carousel（轮播图）un" class="sidebar-link">Carousel（轮播图）un</a></li><li class="sidebar-sub-header"><a href="/src/React%E4%BC%98%E7%A7%80%E7%BB%84%E4%BB%B6.html#collapse（可折叠盒子）" class="sidebar-link">Collapse（可折叠盒子）</a></li><li class="sidebar-sub-header"><a href="/src/React%E4%BC%98%E7%A7%80%E7%BB%84%E4%BB%B6.html#countdown（倒计时）" class="sidebar-link">CountDown（倒计时）</a></li><li class="sidebar-sub-header"><a href="/src/React%E4%BC%98%E7%A7%80%E7%BB%84%E4%BB%B6.html#filedrop（文件拖拽）un" class="sidebar-link">FileDrop（文件拖拽）un</a></li><li class="sidebar-sub-header"><a href="/src/React%E4%BC%98%E7%A7%80%E7%BB%84%E4%BB%B6.html#modal（模态框）" class="sidebar-link">Modal（模态框）</a></li><li class="sidebar-sub-header"><a href="/src/React%E4%BC%98%E7%A7%80%E7%BB%84%E4%BB%B6.html#tabs（标签菜单）" class="sidebar-link">Tabs（标签菜单）</a></li><li class="sidebar-sub-header"><a href="/src/React%E4%BC%98%E7%A7%80%E7%BB%84%E4%BB%B6.html#tooltip-消息提示框" class="sidebar-link">Tooltip(消息提示框)</a></li><li class="sidebar-sub-header"><a href="/src/React%E4%BC%98%E7%A7%80%E7%BB%84%E4%BB%B6.html#treeview（树状图）" class="sidebar-link">TreeView（树状图）</a></li></ul></li></ul></section></li></ul> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-441c6d28 data-v-aa36da2e><h3 class="title" style="display:none;" data-v-441c6d28 data-v-441c6d28>【react组件实例】</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-441c6d28 data-v-441c6d28><input type="password" value="" data-v-441c6d28> <span data-v-441c6d28>Konck! Knock!</span> <button data-v-441c6d28>OK</button></label> <div class="footer" style="display:none;" data-v-441c6d28 data-v-441c6d28><span data-v-441c6d28><i class="iconfont reco-theme" data-v-441c6d28></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-441c6d28>vuePress-theme-reco</a></span> <span data-v-441c6d28><i class="iconfont reco-copyright" data-v-441c6d28></i> <a data-v-441c6d28><span data-v-441c6d28>GuoYF</span>
+            
+          <!---->
+          2020
+        </a></span></div></div> <div data-v-aa36da2e><main class="page"><div class="page-title" style="display:none;"><h1>【react组件实例】</h1> <hr> <div data-v-ffe4abec><i class="iconfont reco-account" data-v-ffe4abec><span data-v-ffe4abec>GuoYF</span></i> <i class="iconfont reco-date" data-v-ffe4abec><span data-v-ffe4abec>2019-10-18</span></i> <i class="iconfont reco-eye" data-v-ffe4abec><span id="/src/React%E4%BC%98%E7%A7%80%E7%BB%84%E4%BB%B6.html" data-flag-title="Your Article Title" class="leancloud-visitors" data-v-ffe4abec><a class="leancloud-visitors-count" style="font-size:.9rem;font-weight:normal;color:#999;"></a></span></i> <i class="iconfont reco-tag tags" data-v-ffe4abec><span class="tag-item" data-v-ffe4abec>react</span><span class="tag-item" data-v-ffe4abec>JavaScript</span></i></div></div> <div class="theme-reco-content content__default" style="display:none;"><h2 id="react组件实例"><a href="#react组件实例" class="header-anchor">#</a> react组件实例</h2> <h3 id="datalist（列表）"><a href="#datalist（列表）" class="header-anchor">#</a> DataList（列表）</h3> <p>使用传参控制列表是否为有序</p> <div class="language-react extra-class"><pre class="language-text"><code>function DataList({ isOrdered , data }){
+	const list = data.map((val,i) =&gt; &lt;li key={`${i}_${val}`&gt;{val}&lt;/li&gt;);
+    return isOrdered ? &lt;ol&gt;{list}&lt;/ol&gt; : &lt;ul&gt;{list}&lt;/ul&gt;
+}
+</code></pre></div><h3 id="datatable（表格）"><a href="#datatable（表格）" class="header-anchor">#</a> DataTable（表格）</h3> <p>通过map对数据进行表格展示</p> <div class="language-react extra-class"><pre class="language-text"><code>function DataTable({ data }) {
+  return (
+    &lt;table&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th&gt;ID&lt;/th&gt;
+          &lt;th&gt;Value&lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        {data.map((val, i) =&gt; (
+          &lt;tr key={`${i}_${val}`}&gt;
+            &lt;td&gt;{i}&lt;/td&gt;
+            &lt;td&gt;{val}&lt;/td&gt;
+          &lt;/tr&gt;
+        ))}
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  );
+}
+</code></pre></div><h3 id="mappedtable（带键值的表格）"><a href="#mappedtable（带键值的表格）" class="header-anchor">#</a> MappedTable（带键值的表格）</h3> <p>寻找具有指定键值的table</p> <div class="language-react extra-class"><pre class="language-text"><code>function MappedTable({ data, propertyNames }) {
+  let filteredData = data.map(v =&gt;
+    Object.keys(v)
+      .filter(k =&gt; propertyNames.includes(k))
+      .reduce((acc, key) =&gt; ((acc[key] = v[key]), acc), {})
+  );
+  return (
+    &lt;table&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          {propertyNames.map(val =&gt; (
+            &lt;th key={`h_${val}`}&gt;{val}&lt;/th&gt;
+          ))}
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        {filteredData.map((val, i) =&gt; (
+          &lt;tr key={`i_${i}`}&gt;
+            {propertyNames.map(p =&gt; (
+              &lt;td key={`i_${i}_${p}`}&gt;{val[p]}&lt;/td&gt;
+            ))}
+          &lt;/tr&gt;
+        ))}
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  );
+}
+</code></pre></div><h3 id="click（点击事件）"><a href="#click（点击事件）" class="header-anchor">#</a> click（点击事件）</h3> <p>用于处理在包装好的组件外部单击的事件</p> <div class="language-react extra-class"><pre class="language-text"><code>const useClickOutside = (ref, callback) =&gt; {
+  const handleClick = e =&gt; {
+    if (ref.current &amp;&amp; !ref.current.contains(e.target)) {
+      callback();
+    }
+  };
+  React.useEffect(() =&gt; {
+    document.addEventListener('click', handleClick);
+    return () =&gt; {
+      document.removeEventListener('click', handleClick);
+    };
+  });
+};
+</code></pre></div><p>用于处理在包装好的组件内部单击的事件。</p> <div class="language-react extra-class"><pre class="language-text"><code>const useClickInside = (ref, callback) =&gt; {
+  const handleClick = e =&gt; {
+    if (ref.current &amp;&amp; ref.current.contains(e.target)) {
+      callback();
+    }
+  };
+  React.useEffect(() =&gt; {
+    document.addEventListener('click', handleClick);
+    return () =&gt; {
+      document.removeEventListener('click', handleClick);
+    };
+  });
+};
+</code></pre></div><h3 id="usefatch（网络请求）"><a href="#usefatch（网络请求）" class="header-anchor">#</a> useFatch（网络请求）</h3> <p>处理网络请求</p> <div class="language-react extra-class"><pre class="language-text"><code>const useFetch = (url, options) =&gt; {
+  const [response, setResponse] = React.useState(null);
+  const [error, setError] = React.useState(null);
+
+  React.useEffect(() =&gt; {
+    const fetchData = async () =&gt; {
+      try {
+        const res = await fetch(url, options);
+        const json = await res.json();
+        setResponse(json);
+      } catch (error) {
+        setError(error);
+      }
+    };
+    fetchData();
+  }, []);
+
+  return { response, error };
+};
+</code></pre></div><h3 id="usetimeout（定时器）"><a href="#usetimeout（定时器）" class="header-anchor">#</a> useTimeout（定时器）</h3> <p>以声明方式实现setTimeout</p> <div class="language-react extra-class"><pre class="language-text"><code>const useTimeout = (callback, delay) =&gt; {
+  const savedCallback = React.useRef();
+
+  React.useEffect(() =&gt; {
+    savedCallback.current = callback;
+  }, [callback]);
+
+  React.useEffect(() =&gt; {
+    function tick() {
+      savedCallback.current();
+    }
+    if (delay !== null) {
+      let id = setTimeout(tick, delay);
+      return () =&gt; clearTimeout(id);
+    }
+  }, [delay]);
+};
+</code></pre></div><h3 id="input（输入框）"><a href="#input（输入框）" class="header-anchor">#</a> input（输入框）</h3> <p>普通输入框</p> <div class="language-react extra-class"><pre class="language-text"><code>function ControlledInput({
+  callback,
+  type = 'text',
+  disabled = false,
+  readOnly = false,
+  defaultValue,
+  placeholder = ''
+}) {
+  const [value, setValue] = React.useState(defaultValue);
+
+  React.useEffect(() =&gt; {
+    callback(value);
+  }, [value]);
+
+  return (
+    &lt;input
+      defaultValue={defaultValue}
+      type={type}
+      disabled={disabled}
+      readOnly={readOnly}
+      placeholder={placeholder}
+      onChange={({ target: { value } }) =&gt; setValue(value)}
+    /&gt;
+  );
+}
+</code></pre></div><h3 id="limitedtextarea（受控多行输入）"><a href="#limitedtextarea（受控多行输入）" class="header-anchor">#</a> LimitedTextarea（受控多行输入）</h3> <p>多行输入</p> <div class="language-react extra-class"><pre class="language-text"><code>function LimitedTextarea({ rows, cols, value, limit }) {
+  const [content, setContent] = React.useState(value);
+
+  const setFormattedContent = text =&gt; {
+    text.length &gt; limit ? setContent(text.slice(0, limit)) : setContent(text);
+  };
+
+  React.useEffect(() =&gt; {
+    setFormattedContent(content);
+  }, []);
+
+  return (
+    &lt;div&gt;
+      &lt;textarea
+        rows={rows}
+        cols={cols}
+        onChange={event =&gt; setFormattedContent(event.target.value)}
+        value={content}
+      /&gt;
+      &lt;p&gt;
+        {content.length}/{limit}
+      &lt;/p&gt;
+    &lt;/div&gt;
+  );
+}
+</code></pre></div><h3 id="multiselectcheckbox（多选框）"><a href="#multiselectcheckbox（多选框）" class="header-anchor">#</a> MultiselectCheckbox（多选框）</h3> <p>多选框</p> <div class="language-react extra-class"><pre class="language-text"><code>const style = {
+  listContainer: {
+    listStyle: 'none',
+    paddingLeft: 0
+  },
+  itemStyle: {
+    cursor: 'pointer',
+    padding: 5
+  }
+};
+
+function MultiselectCheckbox({ options, onChange }) {
+  const [data, setData] = React.useState(options);
+
+  const toggle = item =&gt; {
+    data.forEach((_, key) =&gt; {
+      if (data[key].label === item.label) data[key].checked = !item.checked;
+    });
+    setData([...data]);
+    onChange(data);
+  };
+
+  return (
+    &lt;ul style={style.listContainer}&gt;
+      {data.map(item =&gt; {
+        return (
+          &lt;li key={item.label} style={style.itemStyle} onClick={() =&gt; toggle(item)}&gt;
+            &lt;input readOnly type=&quot;checkbox&quot; checked={item.checked || false} /&gt;
+            {item.label}
+          &lt;/li&gt;
+        );
+      })}
+    &lt;/ul&gt;
+  );
+}
+</code></pre></div><h3 id="select（选择框）"><a href="#select（选择框）" class="header-anchor">#</a> Select（选择框）</h3> <div class="language-react extra-class"><pre class="language-text"><code>function Select({ values, callback, disabled = false, readonly = false, selected }) {
+  return (
+    &lt;select
+      disabled={disabled}
+      readOnly={readonly}
+      onChange={({ target: { value } }) =&gt; callback(value)}
+    &gt;
+      {values.map(([value, text]) =&gt; (
+        &lt;option selected={selected === value} value={value}&gt;
+          {text}
+        &lt;/option&gt;
+      ))}
+    &lt;/select&gt;
+  );
+}
+</code></pre></div><h3 id="accordion（手风琴菜单）"><a href="#accordion（手风琴菜单）" class="header-anchor">#</a> Accordion（手风琴菜单）</h3> <p>手风琴菜单</p> <div class="language-react extra-class"><pre class="language-text"><code>function AccordionItem(props) {
+  const style = {
+    collapsed: {
+      display: 'none'
+    },
+    expanded: {
+      display: 'block'
+    },
+    buttonStyle: {
+      display: 'block',
+      width: '100%'
+    }
+  };
+
+  return (
+    &lt;div&gt;
+      &lt;button style={style.buttonStyle} onClick={() =&gt; props.handleClick()}&gt;
+        {props.label}
+      &lt;/button&gt;
+      &lt;div
+        className=&quot;collapse-content&quot;
+        style={props.isCollapsed ? style.collapsed : style.expanded}
+        aria-expanded={props.isCollapsed}
+      &gt;
+        {props.children}
+      &lt;/div&gt;
+    &lt;/div&gt;
+  );
+}
+
+function Accordion(props) {
+  const [bindIndex, setBindIndex] = React.useState(props.defaultIndex);
+
+  const changeItem = itemIndex =&gt; {
+    if (typeof props.onItemClick === 'function') props.onItemClick(itemIndex);
+    if (itemIndex !== bindIndex) setBindIndex(itemIndex);
+  };
+  const items = props.children.filter(item =&gt; item.type.name === 'AccordionItem');
+
+  return (
+    &lt;div className=&quot;wrapper&quot;&gt;
+      {items.map(({ props }) =&gt; (
+        &lt;AccordionItem
+          isCollapsed={bindIndex !== props.index}
+          label={props.label}
+          handleClick={() =&gt; changeItem(props.index)}
+          children={props.children}
+        /&gt;
+      ))}
+    &lt;/div&gt;
+  );
+}
+</code></pre></div><h3 id="alert（弹出提示）"><a href="#alert（弹出提示）" class="header-anchor">#</a> alert（弹出提示）</h3> <p>对一些消息提醒进行封装</p> <div class="language-react extra-class"><pre class="language-text"><code>@keyframes leave {
+  0% { opacity: 1 }
+  100% { opacity: 0 }
+}
+
+.alert {
+  padding: 0.75rem 0.5rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
+  padding-right: 40px;
+  border-radius: 4px;
+  font-size: 16px;
+  position: relative;
+}
+
+.alert.warning{
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+}
+
+.alert.error{
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+.alert.leaving{
+  animation: leave 0.5s forwards;
+}
+
+.alert .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 0.75rem;
+  color: #333;
+  border: 0;
+  height: 100%;
+  cursor: pointer;
+  background: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.alert .close:after{
+  content: 'x';
+}
+function Notification(props) {
+    const [isShown, setIsShown] = React.useState(false);
+    const [isLeaving, setIsLeaving] = React.useState(false);
+
+    let timeoutId = null;
+
+    React.useEffect(() =&gt; {
+      setIsShown(true);
+      return () =&gt; {
+        clearTimeout(timeoutId);
+      }
+    }, [props.isShown, props.timeout, timeoutId]);
+
+    const closeNotification = () =&gt; {
+      setIsLeaving(true);
+      timeoutId = setTimeout(() =&gt; {
+        setIsLeaving(false);
+        setIsShown(false);
+      }, 250)
+    }
+
+    return isShown &amp;&amp; (
+      &lt;div className={`alert ${props.type}${isLeaving ? ' leaving' : ''}`} role=&quot;alert&quot;&gt;
+        &lt;button className=&quot;close&quot; onClick={closeNotification} /&gt;
+        {props.message}
+      &lt;/div&gt;
+    )
+}
+</code></pre></div><h3 id="carousel（轮播图）un"><a href="#carousel（轮播图）un" class="header-anchor">#</a> Carousel（轮播图）un</h3> <div class="language-react extra-class"><pre class="language-text"><code>function Carousel(props) {
+  const [active, setActive] = React.useState(0);
+  let scrollInterval = null;
+  const style = {
+    carousel: {
+      position: 'relative'
+    },
+    carouselItem: {
+      position: 'absolute',
+      visibility: 'hidden'
+    },
+    visible: {
+      visibility: 'visible'
+    }
+  };
+  React.useEffect(() =&gt; {
+    scrollInterval = setTimeout(() =&gt; {
+      const { carouselItems } = props;
+      setActive((active + 1) % carouselItems.length);
+    }, 2000);
+    return () =&gt; clearTimeout(scrollInterval);
+  });
+  const { carouselItems, ...rest } = props;
+  return (
+    &lt;div style={style.carousel}&gt;
+      {carouselItems.map((item, index) =&gt; {
+        const activeStyle = active === index ? style.visible : {};
+        return React.cloneElement(item, {
+          ...rest,
+          style: {
+            ...style.carouselItem,
+            ...activeStyle
+          }
+        });
+      })}
+    &lt;/div&gt;
+  );
+}
+</code></pre></div><h3 id="collapse（可折叠盒子）"><a href="#collapse（可折叠盒子）" class="header-anchor">#</a> Collapse（可折叠盒子）</h3> <div class="language-react extra-class"><pre class="language-text"><code>function Collapse(props) {
+  const [isCollapsed, setIsCollapsed] = React.useState(props.collapsed);
+
+  const style = {
+    collapsed: {
+      display: 'none'
+    },
+    expanded: {
+      display: 'block'
+    },
+    buttonStyle: {
+      display: 'block',
+      width: '100%'
+    }
+  };
+
+  return (
+    &lt;div&gt;
+      &lt;button style={style.buttonStyle} onClick={() =&gt; setIsCollapsed(!isCollapsed)}&gt;
+        {isCollapsed ? 'Show' : 'Hide'} content
+      &lt;/button&gt;
+      &lt;div
+        className=&quot;collapse-content&quot;
+        style={isCollapsed ? style.collapsed : style.expanded}
+        aria-expanded={isCollapsed}
+      &gt;
+        {props.children}
+      &lt;/div&gt;
+    &lt;/div&gt;
+  );
+}
+</code></pre></div><h3 id="countdown（倒计时）"><a href="#countdown（倒计时）" class="header-anchor">#</a> CountDown（倒计时）</h3> <div class="language-react extra-class"><pre class="language-text"><code>function CountDown({ hours = 0, minutes = 0, seconds = 0 }) {
+  const [paused, setPaused] = React.useState(false);
+  const [over, setOver] = React.useState(false);
+  const [time, setTime] = React.useState({
+    hours: parseInt(hours),
+    minutes: parseInt(minutes),
+    seconds: parseInt(seconds)
+  });
+
+  const tick = () =&gt; {
+    if (paused || over) return;
+    if (time.hours == 0 &amp;&amp; time.minutes == 0 &amp;&amp; time.seconds == 0) setOver(true);
+    else if (time.minutes == 0 &amp;&amp; time.seconds == 0)
+      setTime({
+        hours: time.hours - 1,
+        minutes: 59,
+        seconds: 59
+      });
+    else if (time.seconds == 0)
+      setTime({
+        hours: time.hours,
+        minutes: time.minutes - 1,
+        seconds: 59
+      });
+    else
+      setTime({
+        hours: time.hours,
+        minutes: time.minutes,
+        seconds: time.seconds - 1
+      });
+  };
+
+  const reset = () =&gt; {
+    setTime({
+      hours: parseInt(hours),
+      minutes: parseInt(minutes),
+      seconds: parseInt(seconds)
+    });
+    setPaused(false);
+    setOver(false);
+  };
+
+  React.useEffect(() =&gt; {
+    let timerID = setInterval(() =&gt; tick(), 1000);
+    return () =&gt; clearInterval(timerID);
+  });
+
+  return (
+    &lt;div&gt;
+      &lt;p&gt;{`${time.hours.toString().padStart(2, '0')}:${time.minutes
+        .toString()
+        .padStart(2, '0')}:${time.seconds.toString().padStart(2, '0')}`}&lt;/p&gt;
+      &lt;div&gt;{over ? &quot;Time's up!&quot; : ''}&lt;/div&gt;
+      &lt;button onClick={() =&gt; setPaused(!paused)}&gt;{paused ? 'Resume' : 'Pause'}&lt;/button&gt;
+      &lt;button onClick={() =&gt; reset()}&gt;Restart&lt;/button&gt;
+    &lt;/div&gt;
+  );
+}
+</code></pre></div><h3 id="filedrop（文件拖拽）un"><a href="#filedrop（文件拖拽）un" class="header-anchor">#</a> FileDrop（文件拖拽）un</h3> <div class="language-react extra-class"><pre class="language-text"><code>.filedrop {
+  min-height: 120px;
+  border: 3px solid #d3d3d3;
+  text-align: center;
+  font-size: 24px;
+  padding: 32px;
+  border-radius: 4px;
+}
+
+.filedrop.drag {
+  border: 3px dashed #1e90ff;
+}
+
+.filedrop.ready {
+  border: 3px solid #32cd32;
+}
+function FileDrop(props) {
+  const [drag, setDrag] = React.useState(false);
+  const [filename, setFilename] = React.useState('');
+  let dropRef = React.createRef();
+  let dragCounter = 0;
+
+  const handleDrag = e =&gt; {
+    e.preventDefault();
+    e.stopPropagation();
+  };
+
+  const handleDragIn = e =&gt; {
+    e.preventDefault();
+    e.stopPropagation();
+    dragCounter++;
+    if (e.dataTransfer.items &amp;&amp; e.dataTransfer.items.length &gt; 0) setDrag(true);
+  };
+
+  const handleDragOut = e =&gt; {
+    e.preventDefault();
+    e.stopPropagation();
+    dragCounter--;
+    if (dragCounter === 0) setDrag(false);
+  };
+
+  const handleDrop = e =&gt; {
+    e.preventDefault();
+    e.stopPropagation();
+    setDrag(false);
+    if (e.dataTransfer.files &amp;&amp; e.dataTransfer.files.length &gt; 0) {
+      props.handleDrop(e.dataTransfer.files[0]);
+      setFilename(e.dataTransfer.files[0].name);
+      e.dataTransfer.clearData();
+      dragCounter = 0;
+    }
+  };
+
+  React.useEffect(() =&gt; {
+    let div = dropRef.current;
+    div.addEventListener('dragenter', handleDragIn);
+    div.addEventListener('dragleave', handleDragOut);
+    div.addEventListener('dragover', handleDrag);
+    div.addEventListener('drop', handleDrop);
+    return function cleanup() {
+      div.removeEventListener('dragenter', handleDragIn);
+      div.removeEventListener('dragleave', handleDragOut);
+      div.removeEventListener('dragover', handleDrag);
+      div.removeEventListener('drop', handleDrop);
+    };
+  });
+
+  return (
+    &lt;div
+      ref={dropRef}
+      className={drag ? 'filedrop drag' : filename ? 'filedrop ready' : 'filedrop'}
+    &gt;
+      {filename &amp;&amp; !drag ? &lt;div&gt;{filename}&lt;/div&gt; : &lt;div&gt;Drop files here!&lt;/div&gt;}
+    &lt;/div&gt;
+  );
+}
+</code></pre></div><h3 id="modal（模态框）"><a href="#modal（模态框）" class="header-anchor">#</a> Modal（模态框）</h3> <div class="language-react extra-class"><pre class="language-text"><code>.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.25);
+  animation-name: appear;
+  animation-duration: 300ms;
+}
+
+.modal-dialog {
+  width: 100%;
+  max-width: 550px;
+  background: white;
+  position: relative;
+  margin: 0 20px;
+  max-height: calc(100vh - 40px);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slide-in;
+  animation-duration: 0.5s;
+}
+
+.modal-header,
+.modal-footer {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+.modal-header {
+  border-bottom: 1px solid #dbdbdb;
+  justify-content: space-between;
+}
+.modal-footer {
+  border-top: 1px solid #dbdbdb;
+  justify-content: flex-end;
+}
+.modal-close {
+  cursor: pointer;
+  padding: 1rem;
+  margin: -1rem -1rem -1rem auto;
+}
+.modal-body {
+  overflow: auto;
+}
+.modal-content {
+  padding: 1rem;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes slide-in {
+  from {
+    transform: translateY(-150px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+function Modal({ isVisible = false, title, content, footer, onClose }) {
+  React.useEffect(() =&gt; {
+    document.addEventListener('keydown', keydownHandler);
+    return () =&gt; document.removeEventListener('keydown', keydownHandler);
+  });
+
+  function keydownHandler({ key }) {
+    switch (key) {
+      case 'Escape':
+        onClose();
+        break;
+      default:
+    }
+  }
+
+  return !isVisible ? null : (
+    &lt;div className=&quot;modal&quot; onClick={onClose}&gt;
+      &lt;div className=&quot;modal-dialog&quot; onClick={e =&gt; e.stopPropagation()}&gt;
+        &lt;div className=&quot;modal-header&quot;&gt;
+          &lt;h3 className=&quot;modal-title&quot;&gt;{title}&lt;/h3&gt;
+          &lt;span className=&quot;modal-close&quot; onClick={onClose}&gt;
+            &amp;times;
+          &lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div className=&quot;modal-body&quot;&gt;
+          &lt;div className=&quot;modal-content&quot;&gt;{content}&lt;/div&gt;
+        &lt;/div&gt;
+        {footer &amp;&amp; &lt;div className=&quot;modal-footer&quot;&gt;{footer}&lt;/div&gt;}
+      &lt;/div&gt;
+    &lt;/div&gt;
+  );
+}
+</code></pre></div><h3 id="tabs（标签菜单）"><a href="#tabs（标签菜单）" class="header-anchor">#</a> Tabs（标签菜单）</h3> <div class="language-react extra-class"><pre class="language-text"><code>.tab-menu &gt; button {
+  cursor: pointer;
+  padding: 8px 16px;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  background: none;
+}
+.tab-menu &gt; button.focus {
+  border-bottom: 2px solid #007bef;
+}
+.tab-menu &gt; button:hover {
+  border-bottom: 2px solid #007bef;
+}
+function TabItem(props) {
+  return &lt;div {...props} /&gt;;
+}
+
+function Tabs(props) {
+  const [bindIndex, setBindIndex] = React.useState(props.defaultIndex);
+  const changeTab = newIndex =&gt; {
+    if (typeof props.onTabClick === 'function') props.onTabClick(newIndex);
+    setBindIndex(newIndex);
+  };
+  const items = props.children.filter(item =&gt; item.type.name === 'TabItem');
+
+  return (
+    &lt;div className=&quot;wrapper&quot;&gt;
+      &lt;div className=&quot;tab-menu&quot;&gt;
+        {items.map(({ props: { index, label } }) =&gt; (
+          &lt;button onClick={() =&gt; changeTab(index)} className={bindIndex === index ? 'focus' : ''}&gt;
+            {label}
+          &lt;/button&gt;
+        ))}
+      &lt;/div&gt;
+      &lt;div className=&quot;tab-view&quot;&gt;
+        {items.map(({ props }) =&gt; (
+          &lt;div
+            {...props}
+            className=&quot;tab-view_item&quot;
+            key={props.index}
+            style={{ display: bindIndex === props.index ? 'block' : 'none' }}
+          /&gt;
+        ))}
+      &lt;/div&gt;
+    &lt;/div&gt;
+  );
+}
+</code></pre></div><h3 id="tooltip-消息提示框"><a href="#tooltip-消息提示框" class="header-anchor">#</a> Tooltip(消息提示框)</h3> <div class="language-react extra-class"><pre class="language-text"><code>.tooltip {
+  position: relative;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  visibility: hidden;
+  padding: 5px;
+  border-radius: 5px;
+}
+.tooltip-arrow {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.7) transparent transparent;
+}
+function Tooltip({ children, text, ...rest }) {
+  const [show, setShow] = React.useState(false);
+
+  return (
+    &lt;div&gt;
+      &lt;div className=&quot;tooltip&quot; style={show ? { visibility: 'visible' } : {}}&gt;
+        {text}
+        &lt;span className=&quot;tooltip-arrow&quot; /&gt;
+      &lt;/div&gt;
+      &lt;div {...rest} onMouseEnter={() =&gt; setShow(true)} onMouseLeave={() =&gt; setShow(false)}&gt;
+        {children}
+      &lt;/div&gt;
+    &lt;/div&gt;
+  );
+}
+</code></pre></div><h3 id="treeview（树状图）"><a href="#treeview（树状图）" class="header-anchor">#</a> TreeView（树状图）</h3> <div class="language-react extra-class"><pre class="language-text"><code>.tree-element {
+  margin: 0;
+  position: relative;
+}
+
+div.tree-element:before {
+  content: '';
+  position: absolute;
+  top: 24px;
+  left: 1px;
+  height: calc(100% - 48px);
+  border-left: 1px solid gray;
+}
+
+.toggler {
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  width: 0;
+  height: 0;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 5px solid gray;
+  cursor: pointer;
+}
+
+.toggler.closed {
+  transform: rotate(90deg);
+}
+
+.collapsed {
+  display: none;
+}
+function TreeView({
+  data,
+  toggled = true,
+  name = null,
+  isLast = true,
+  isChildElement = false,
+  isParentToggled = true
+}) {
+  const [isToggled, setIsToggled] = React.useState(toggled);
+
+  return (
+    &lt;div
+      style={{ marginLeft: isChildElement ? 16 : 4 + 'px' }}
+      className={isParentToggled ? 'tree-element' : 'tree-element collapsed'}
+    &gt;
+      &lt;span
+        className={isToggled ? 'toggler' : 'toggler closed'}
+        onClick={() =&gt; setIsToggled(!isToggled)}
+      /&gt;
+      {name ? &lt;strong&gt;&amp;nbsp;&amp;nbsp;{name}: &lt;/strong&gt; : &lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;}
+      {Array.isArray(data) ? '[' : '{'}
+      {!isToggled &amp;&amp; '...'}
+      {Object.keys(data).map((v, i, a) =&gt;
+        typeof data[v] == 'object' ? (
+          &lt;TreeView
+            data={data[v]}
+            isLast={i === a.length - 1}
+            name={Array.isArray(data) ? null : v}
+            isChildElement
+            isParentToggled={isParentToggled &amp;&amp; isToggled}
+          /&gt;
+        ) : (
+          &lt;p
+            style={{ marginLeft: 16 + 'px' }}
+            className={isToggled ? 'tree-element' : 'tree-element collapsed'}
+          &gt;
+            {Array.isArray(data) ? '' : &lt;strong&gt;{v}: &lt;/strong&gt;}
+            {data[v]}
+            {i === a.length - 1 ? '' : ','}
+          &lt;/p&gt;
+        )
+      )}
+      {Array.isArray(data) ? ']' : '}'}
+      {!isLast ? ',' : ''}
+    &lt;/div&gt;
+  );
+}
+</code></pre></div></div> <footer class="page-edit" style="display:none;"><!----> <!----></footer> <!----> <!----></main> <!----></div></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-1e128e82 data-v-1e128e82><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-1e128e82><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-1e128e82></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-1e128e82></path></svg></div><div class="kanbanniang" data-v-ee8d62e6><div class="banniang-container" style="display:;" data-v-ee8d62e6><div class="messageBox" style="right:68px;bottom:190px;display:none;" data-v-ee8d62e6>
+      欢迎来到 GuoYF
+    </div> <div class="operation" style="right:90px;bottom:40px;display:none;" data-v-ee8d62e6><i class="kbnfont kbn-ban-home ban-home" data-v-ee8d62e6></i> <i class="kbnfont kbn-ban-message message" data-v-ee8d62e6></i> <i class="kbnfont kbn-ban-close close" data-v-ee8d62e6></i> <a target="_blank" href="https://vuepress-theme-reco.recoluan.com/views/plugins/kanbanniang.html" data-v-ee8d62e6><i class="kbnfont kbn-ban-info info" data-v-ee8d62e6></i></a> <i class="kbnfont kbn-ban-theme skin" style="display:none;" data-v-ee8d62e6></i></div> <canvas id="banniang" width="150" height="220" class="live2d" style="position:fixed;right:50px;bottom:0px;opacity:0.9;z-index:99999;" data-v-ee8d62e6></canvas></div> <div class="showBanNiang" style="display:none;" data-v-ee8d62e6>
+    看板娘
+  </div></div></div></div>
+    <script src="/assets/js/app.f4b0a642.js" defer></script><script src="/assets/js/3.7a1db6fa.js" defer></script><script src="/assets/js/1.816cd029.js" defer></script><script src="/assets/js/14.bb1c86f1.js" defer></script>
+  </body>
+</html>
